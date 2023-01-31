@@ -25,6 +25,7 @@ main (int a_argc, char *a_argv[])
 
     Window window ;
     window.add (source_view) ;
+	source_view.show () ;
 
     app->run (window) ;
 
